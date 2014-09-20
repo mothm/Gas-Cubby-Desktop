@@ -6,7 +6,7 @@ Stats::Stats()
     s0 = 0;
     s1 = 0;
     s2 = 0;
-    beta = 0.825
+    beta = 0.825;
 }
 
 double Stats::calc(bool upper)
