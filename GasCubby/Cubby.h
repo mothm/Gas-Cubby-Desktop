@@ -7,8 +7,11 @@ private:
     double s0;
     double s1;
     double s2;
+    double beta;
+    double calc();
 
 public:
+    Stats();
     void update(double mpg);
     double calcLower();
     double calcUpper();

@@ -13,7 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    Cubby.cpp
 
 HEADERS  += mainwindow.h \
     Cubby.h
